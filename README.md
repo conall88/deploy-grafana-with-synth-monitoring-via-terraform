@@ -32,5 +32,7 @@ This repo is an example of a stack deployed with synthetic monitoring enabled.
 it makes:
 
 -a stack
+
 -an api key with viewer permissions in the selected org (defined by cloud_org_slug).
+
 -an api key with metricsPublisher permissions, used when configuring the synthetic monitoring, in the selected org(defined by cloud_org_slug)
