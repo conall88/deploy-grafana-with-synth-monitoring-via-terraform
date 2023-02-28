@@ -22,9 +22,13 @@ This repo is an example of a stack deployed with synthetic monitoring enabled.
 # How to use
 
 1] pull this repo.
+
 2] execute a 'terraform init' command {docs; https://developer.hashicorp.com/terraform/cli/commands/init }
+
 3] populate the variables.tf file with the values you need to provide for your api key, stack name, etc. make sure you use an api key with admin rights.
+
 4] do a 'terraform plan', this'l tell you the changes it plans to make and validate your settings.
+
 5] do a 'terraform apply' if satisfied with the changes.
 
 # What does this terraform file actually make?
